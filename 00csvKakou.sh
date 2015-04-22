@@ -17,7 +17,7 @@ do
     address=`echo $line2 | cut -d, -f6`
     ido=`echo $line2 | cut -d, -f7`
     keido=`echo $line2 | cut -d, -f8`
-    if [ $todo != '都道府県コード' ]; then
+    if [ $todo != '都道府県名' ]; then
       echo "$todo$city$address,$ido,$keido,"
     fi
 done
