@@ -22,3 +22,10 @@ idokeido.txt
 
 に、１つのテキストとしてまとめる。
 
+00csvKakou.sh > data.txt
+
+でCSVの加工
+
+00randomCSV.sh
+
+で、CSVから無作為抽出
